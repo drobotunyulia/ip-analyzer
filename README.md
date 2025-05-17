@@ -19,10 +19,10 @@
 
 ## Установка  
 1. Клонируйте репозиторий:  
-   ```bash  
-   git clone https://github.com/yourusername/ip-subnet-analyzer.git  
-   cd ip-subnet-analyzer
-   ```
+```bash  
+git clone https://github.com/yourusername/ip-subnet-analyzer.git  
+cd ip-subnet-analyzer
+```
 2. Установите зависимости:
 
 ```bash  
