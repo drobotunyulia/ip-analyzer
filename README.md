@@ -22,30 +22,37 @@
    ```bash  
    git clone https://github.com/yourusername/ip-subnet-analyzer.git  
    cd ip-subnet-analyzer
+   ```
 Установите зависимости:
 
-
-pip install -r requirements.txt  
+```bash  
+pip install -r requirements.txt
+```
 Создайте файл .env в корне проекта:
 
+```ini
 DB_NAME=your_db_name  
 DB_USER=your_username  
 DB_PASSWORD=your_password  
 DB_HOST=localhost  
 DB_PORT=5432  
+```
 
-
-Подготовьте файл с IP-адресами (например, ips.txt):
+Подготовьте файл с IP-адресами (например, ips.txt).
 
 
 ## Запуск
 
 Запуск с маской /24:
 
+```bash
 python ip_subnets.py /path/to/ips.txt --mask 24
+```
 
 Запуск с маской /16:
 
+```bash
 python ip_subnets.py ips.txt --mask 16  
+```
 
 Обновление существующих записей: при повторном запуске данные обновляются.
