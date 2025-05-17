@@ -23,12 +23,12 @@
    git clone https://github.com/yourusername/ip-subnet-analyzer.git  
    cd ip-subnet-analyzer
    ```
-Установите зависимости:
+2. Установите зависимости:
 
 ```bash  
 pip install -r requirements.txt
 ```
-Создайте файл .env в корне проекта:
+3. Создайте файл .env в корне проекта:
 
 ```ini
 DB_NAME=your_db_name  
@@ -38,7 +38,7 @@ DB_HOST=localhost
 DB_PORT=5432  
 ```
 
-Подготовьте файл с IP-адресами (например, ips.txt).
+4. Подготовьте файл с IP-адресами (например, ips.txt).
 
 
 ## Запуск
